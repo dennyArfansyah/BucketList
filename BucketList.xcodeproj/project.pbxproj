@@ -14,6 +14,8 @@
 		37454CCD29890566008FBE34 /* ComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37454CCC29890566008FBE34 /* ComparableView.swift */; };
 		37454CCF298907C5008FBE34 /* WiritingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37454CCE298907C5008FBE34 /* WiritingDataView.swift */; };
 		37454CD129890A4F008FBE34 /* SwitchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37454CD029890A4F008FBE34 /* SwitchingView.swift */; };
+		37454CD42989102B008FBE34 /* IntegratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37454CD32989102B008FBE34 /* IntegratingView.swift */; };
+		37454CD6298915D2008FBE34 /* FaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37454CD5298915D2008FBE34 /* FaceIDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		37454CCC29890566008FBE34 /* ComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableView.swift; sourceTree = "<group>"; };
 		37454CCE298907C5008FBE34 /* WiritingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiritingDataView.swift; sourceTree = "<group>"; };
 		37454CD029890A4F008FBE34 /* SwitchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingView.swift; sourceTree = "<group>"; };
+		37454CD32989102B008FBE34 /* IntegratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingView.swift; sourceTree = "<group>"; };
+		37454CD5298915D2008FBE34 /* FaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				37454CCB29890551008FBE34 /* Part1 */,
+				37454CD22989101C008FBE34 /* Part2 */,
 				37454CBD2989000C008FBE34 /* BucketListApp.swift */,
 				37454CBF2989000C008FBE34 /* ContentView.swift */,
 				37454CC12989000E008FBE34 /* Assets.xcassets */,
@@ -82,6 +87,15 @@
 				37454CD029890A4F008FBE34 /* SwitchingView.swift */,
 			);
 			path = Part1;
+			sourceTree = "<group>";
+		};
+		37454CD22989101C008FBE34 /* Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				37454CD32989102B008FBE34 /* IntegratingView.swift */,
+				37454CD5298915D2008FBE34 /* FaceIDView.swift */,
+			);
+			path = Part2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				37454CC02989000C008FBE34 /* ContentView.swift in Sources */,
+				37454CD42989102B008FBE34 /* IntegratingView.swift in Sources */,
 				37454CD129890A4F008FBE34 /* SwitchingView.swift in Sources */,
 				37454CBE2989000C008FBE34 /* BucketListApp.swift in Sources */,
+				37454CD6298915D2008FBE34 /* FaceIDView.swift in Sources */,
 				37454CCD29890566008FBE34 /* ComparableView.swift in Sources */,
 				37454CCF298907C5008FBE34 /* WiritingDataView.swift in Sources */,
 			);
@@ -290,6 +306,7 @@
 				DEVELOPMENT_TEAM = 3L73K388LH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +336,7 @@
 				DEVELOPMENT_TEAM = 3L73K388LH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
