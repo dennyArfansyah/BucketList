@@ -20,6 +20,8 @@
 		3748E3A929892B5B005A1518 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3A829892B5B005A1518 /* Location.swift */; };
 		3748E3AB298D1683005A1518 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3AA298D1683005A1518 /* EditView.swift */; };
 		3748E3AF2992B702005A1518 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3AE2992B702005A1518 /* Result.swift */; };
+		3748E3B22992C281005A1518 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3B12992C281005A1518 /* ContentView-ViewModel.swift */; };
+		3748E3B42992C870005A1518 /* FileManager-DocumentationDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3B32992C870005A1518 /* FileManager-DocumentationDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		3748E3A829892B5B005A1518 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3748E3AA298D1683005A1518 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		3748E3AE2992B702005A1518 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		3748E3B12992C281005A1518 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		3748E3B32992C870005A1518 /* FileManager-DocumentationDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentationDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		37454CBC2989000C008FBE34 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				3748E3B02992C217005A1518 /* Part5 */,
 				3748E3AD2992B6F6005A1518 /* Part4 */,
 				3748E3A529892996005A1518 /* Part3 */,
 				37454CCB29890551008FBE34 /* Part1 */,
@@ -124,6 +129,15 @@
 				3748E3AE2992B702005A1518 /* Result.swift */,
 			);
 			path = Part4;
+			sourceTree = "<group>";
+		};
+		3748E3B02992C217005A1518 /* Part5 */ = {
+			isa = PBXGroup;
+			children = (
+				3748E3B12992C281005A1518 /* ContentView-ViewModel.swift */,
+				3748E3B32992C870005A1518 /* FileManager-DocumentationDirectory.swift */,
+			);
+			path = Part5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,11 +211,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37454CC02989000C008FBE34 /* ContentView.swift in Sources */,
+				3748E3B22992C281005A1518 /* ContentView-ViewModel.swift in Sources */,
 				3748E3A7298929A3005A1518 /* MapView.swift in Sources */,
 				37454CD42989102B008FBE34 /* IntegratingView.swift in Sources */,
 				37454CD129890A4F008FBE34 /* SwitchingView.swift in Sources */,
 				3748E3A929892B5B005A1518 /* Location.swift in Sources */,
 				37454CBE2989000C008FBE34 /* BucketListApp.swift in Sources */,
+				3748E3B42992C870005A1518 /* FileManager-DocumentationDirectory.swift in Sources */,
 				3748E3AB298D1683005A1518 /* EditView.swift in Sources */,
 				37454CD6298915D2008FBE34 /* FaceIDView.swift in Sources */,
 				37454CCD29890566008FBE34 /* ComparableView.swift in Sources */,
@@ -338,7 +354,7 @@
 				DEVELOPMENT_TEAM = 3L73K388LH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -368,7 +384,7 @@
 				DEVELOPMENT_TEAM = 3L73K388LH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
