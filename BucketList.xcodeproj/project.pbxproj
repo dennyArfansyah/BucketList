@@ -19,6 +19,7 @@
 		3748E3A7298929A3005A1518 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3A6298929A3005A1518 /* MapView.swift */; };
 		3748E3A929892B5B005A1518 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3A829892B5B005A1518 /* Location.swift */; };
 		3748E3AB298D1683005A1518 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3AA298D1683005A1518 /* EditView.swift */; };
+		3748E3AF2992B702005A1518 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748E3AE2992B702005A1518 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3748E3A6298929A3005A1518 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3748E3A829892B5B005A1518 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3748E3AA298D1683005A1518 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		3748E3AE2992B702005A1518 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		37454CBC2989000C008FBE34 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				3748E3AD2992B6F6005A1518 /* Part4 */,
 				3748E3A529892996005A1518 /* Part3 */,
 				37454CCB29890551008FBE34 /* Part1 */,
 				37454CD22989101C008FBE34 /* Part2 */,
@@ -113,6 +116,14 @@
 				3748E3AA298D1683005A1518 /* EditView.swift */,
 			);
 			path = Part3;
+			sourceTree = "<group>";
+		};
+		3748E3AD2992B6F6005A1518 /* Part4 */ = {
+			isa = PBXGroup;
+			children = (
+				3748E3AE2992B702005A1518 /* Result.swift */,
+			);
+			path = Part4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 				37454CD6298915D2008FBE34 /* FaceIDView.swift in Sources */,
 				37454CCD29890566008FBE34 /* ComparableView.swift in Sources */,
 				37454CCF298907C5008FBE34 /* WiritingDataView.swift in Sources */,
+				3748E3AF2992B702005A1518 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
